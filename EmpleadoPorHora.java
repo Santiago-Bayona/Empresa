@@ -47,10 +47,12 @@ public class EmpleadoPorHora extends Empleado{
 
     /**
      * Metodo que permite calcular el salrio para un empleado que trabaja por horas
+     * @return 
      */
-    public void CalcularSalario() {
+    public int CalcularSalario() {
         int salarioTotal = HorasTrabajadas * SalarioPorHora;
         System.out.println("El salario total es: " + salarioTotal);
+        return salarioTotal;
     }
 
     @Override

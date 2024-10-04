@@ -53,9 +53,10 @@ public class EmpleadoFreelance extends Empleado{
     /**
      * Metodo que permite calcular el salario de un empleado Freelance
      */
-    public void CalcularSalario(){
+    public int CalcularSalario(){
         int Salario = PagoPorProyecto*ProyectosCompletos;
         System.out.println("El Salario del empleado Freelance es: " + Salario);
+        return Salario;
     }
 
     @Override

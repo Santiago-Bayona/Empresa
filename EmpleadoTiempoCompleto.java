@@ -28,8 +28,9 @@ public class EmpleadoTiempoCompleto extends Empleado{
     /**
      * Metodo que permite Calcular el salario mensual del empleado de tiempo completo
      */
-    public void CalcularSalario(){
+    public int CalcularSalario(){
         System.out.println("El salrio del empleado de tiempo completo es: " + SalarioMensual);
+        return SalarioMensual;
     }
 
     @Override

@@ -50,7 +50,7 @@ public abstract class  Empleado {
     /**
      * Metodo que permite calcular el salario según el tipo de empleado
      */
-    public abstract void CalcularSalario();
+    public abstract int CalcularSalario();
 
 
     @Override
